@@ -1,0 +1,160 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="1060" viewBox="0 0 1240 1060" font-family="Liberation Sans, Helvetica, Arial, sans-serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333333"/></marker><marker id="arrw" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333333"/></marker></defs>
+<rect width="1240" height="1060" fill="#ffffff"/>
+<polygon points="20,32 32,20 320,20 308,32" fill="#e8f3ee" stroke="#4d8a6a" stroke-width="1.2"/>
+<polygon points="308,32 320,20 320,193 308,205" fill="#e8f3ee" stroke="#4d8a6a" stroke-width="1.2"/>
+<rect x="20" y="32" width="288" height="173" fill="#e8f3ee" stroke="#4d8a6a" stroke-width="1.2"/>
+<text x="28" y="50" font-size="13" fill="#2f6b4f">«device»</text>
+<text x="28" y="68" font-size="14" font-weight="bold" fill="#1e4d36">User PC</text>
+<polygon points="36,85 46,75 306,75 296,85" fill="#f6fbf8" stroke="#4d8a6a" stroke-width="1.2"/>
+<polygon points="296,85 306,75 306,185 296,195" fill="#f6fbf8" stroke="#4d8a6a" stroke-width="1.2"/>
+<rect x="36" y="85" width="260" height="110" fill="#f6fbf8" stroke="#4d8a6a" stroke-width="1.2"/>
+<text x="44" y="102" font-size="12" fill="#2f6b4f">«execution environment»</text>
+<text x="44" y="119" font-size="13" font-weight="bold" fill="#1e4d36">Web browser</text>
+<polygon points="360,32 372,20 750,20 738,32" fill="#e8f3ee" stroke="#4d8a6a" stroke-width="1.2"/>
+<polygon points="738,32 750,20 750,193 738,205" fill="#e8f3ee" stroke="#4d8a6a" stroke-width="1.2"/>
+<rect x="360" y="32" width="378" height="173" fill="#e8f3ee" stroke="#4d8a6a" stroke-width="1.2"/>
+<text x="368" y="50" font-size="13" fill="#2f6b4f">«device»</text>
+<text x="368" y="68" font-size="14" font-weight="bold" fill="#1e4d36">Developer laptop  × 5</text>
+<polygon points="376,85 386,75 736,75 726,85" fill="#f6fbf8" stroke="#4d8a6a" stroke-width="1.2"/>
+<polygon points="726,85 736,75 736,185 726,195" fill="#f6fbf8" stroke="#4d8a6a" stroke-width="1.2"/>
+<rect x="376" y="85" width="350" height="110" fill="#f6fbf8" stroke="#4d8a6a" stroke-width="1.2"/>
+<text x="384" y="102" font-size="12" fill="#2f6b4f">«execution environment»</text>
+<text x="384" y="119" font-size="13" font-weight="bold" fill="#1e4d36">Docker Desktop (CPU only)</text>
+<polygon points="830,32 842,20 1220,20 1208,32" fill="#e8f3ee" stroke="#4d8a6a" stroke-width="1.2"/>
+<polygon points="1208,32 1220,20 1220,193 1208,205" fill="#e8f3ee" stroke="#4d8a6a" stroke-width="1.2"/>
+<rect x="830" y="32" width="378" height="173" fill="#e8f3ee" stroke="#4d8a6a" stroke-width="1.2"/>
+<text x="838" y="50" font-size="13" fill="#2f6b4f">«device»</text>
+<text x="838" y="68" font-size="14" font-weight="bold" fill="#1e4d36">GitHub (hosted service)</text>
+<polygon points="846,85 856,75 1206,75 1196,85" fill="#f6fbf8" stroke="#4d8a6a" stroke-width="1.2"/>
+<polygon points="1196,85 1206,75 1206,185 1196,195" fill="#f6fbf8" stroke="#4d8a6a" stroke-width="1.2"/>
+<rect x="846" y="85" width="350" height="110" fill="#f6fbf8" stroke="#4d8a6a" stroke-width="1.2"/>
+<text x="854" y="102" font-size="12" fill="#2f6b4f">«execution environment»</text>
+<text x="854" y="119" font-size="13" font-weight="bold" fill="#1e4d36">GitHub Actions runner</text>
+<polygon points="20,282 32,270 1220,270 1208,282" fill="#e8f3ee" stroke="#4d8a6a" stroke-width="1.2"/>
+<polygon points="1208,282 1220,270 1220,763 1208,775" fill="#e8f3ee" stroke="#4d8a6a" stroke-width="1.2"/>
+<rect x="20" y="282" width="1188" height="493" fill="#e8f3ee" stroke="#4d8a6a" stroke-width="1.2"/>
+<text x="28" y="300" font-size="13" fill="#2f6b4f">«device»</text>
+<text x="28" y="318" font-size="14" font-weight="bold" fill="#1e4d36">Team GPU workstation (demonstration host, NVIDIA GPU)</text>
+<polygon points="36,335 46,325 1206,325 1196,335" fill="#f6fbf8" stroke="#4d8a6a" stroke-width="1.2"/>
+<polygon points="1196,335 1206,325 1206,753 1196,763" fill="#f6fbf8" stroke="#4d8a6a" stroke-width="1.2"/>
+<rect x="36" y="335" width="1160" height="428" fill="#f6fbf8" stroke="#4d8a6a" stroke-width="1.2"/>
+<text x="44" y="352" font-size="12" fill="#2f6b4f">«execution environment»</text>
+<text x="44" y="369" font-size="13" font-weight="bold" fill="#1e4d36">Linux + Docker Engine / Compose + NVIDIA container runtime</text>
+<polygon points="20,857 32,845 350,845 338,857" fill="#e8f3ee" stroke="#4d8a6a" stroke-width="1.2"/>
+<polygon points="338,857 350,845 350,963 338,975" fill="#e8f3ee" stroke="#4d8a6a" stroke-width="1.2"/>
+<rect x="20" y="857" width="318" height="118" fill="#e8f3ee" stroke="#4d8a6a" stroke-width="1.2"/>
+<text x="28" y="875" font-size="13" fill="#2f6b4f">«device»</text>
+<text x="28" y="893" font-size="14" font-weight="bold" fill="#1e4d36">Backup drive (kept offline)</text>
+<polygon points="420,857 432,845 870,845 858,857" fill="#e8f3ee" stroke="#4d8a6a" stroke-width="1.2" stroke-dasharray="6 4"/>
+<polygon points="858,857 870,845 870,963 858,975" fill="#e8f3ee" stroke="#4d8a6a" stroke-width="1.2" stroke-dasharray="6 4"/>
+<rect x="420" y="857" width="438" height="118" fill="#e8f3ee" stroke="#4d8a6a" stroke-width="1.2" stroke-dasharray="6 4"/>
+<text x="428" y="875" font-size="13" fill="#2f6b4f">«device»</text>
+<text x="428" y="893" font-size="14" font-weight="bold" fill="#1e4d36">Exhibit kiosk PC (future extension)</text>
+<polygon points="940,857 952,845 1220,845 1208,857" fill="#e8f3ee" stroke="#4d8a6a" stroke-width="1.2" stroke-dasharray="6 4"/>
+<polygon points="1208,857 1220,845 1220,963 1208,975" fill="#e8f3ee" stroke="#4d8a6a" stroke-width="1.2" stroke-dasharray="6 4"/>
+<rect x="940" y="857" width="268" height="118" fill="#e8f3ee" stroke="#4d8a6a" stroke-width="1.2" stroke-dasharray="6 4"/>
+<text x="948" y="875" font-size="13" fill="#2f6b4f">«device»</text>
+<text x="948" y="893" font-size="14" font-weight="bold" fill="#1e4d36">Hologram display (future)</text>
+<polygon points="100,1006 108,998 220,998 212,1006" fill="#e8f3ee" stroke="#4d8a6a" stroke-width="1.2"/>
+<polygon points="212,1006 220,998 220,1036 212,1044" fill="#e8f3ee" stroke="#4d8a6a" stroke-width="1.2"/>
+<rect x="100" y="1006" width="112" height="38" fill="#e8f3ee" stroke="#4d8a6a" stroke-width="1.2"/>
+<text x="108" y="1021" font-size="10" fill="#2f6b4f">«device»</text>
+<text x="108" y="1036" font-size="11" font-weight="bold" fill="#1e4d36">Node</text>
+<rect x="54" y="390" width="230" height="360" fill="none" stroke="#6c8ebf" stroke-width="1.2" stroke-dasharray="6 4"/>
+<text x="276" y="744" font-size="12" font-weight="bold" fill="#333333" text-anchor="end">edge network</text>
+<rect x="300" y="390" width="892" height="360" fill="none" stroke="#6c8ebf" stroke-width="1.2" stroke-dasharray="6 4"/>
+<text x="1184" y="744" font-size="12" font-weight="bold" fill="#333333" text-anchor="end">internal network (no inbound from outside)</text>
+<rect x="20" y="990" width="1200" height="62" fill="none" stroke="#999999" stroke-width="1.2"/>
+<text x="28" y="1006" font-size="13" font-weight="bold" fill="#333333" text-anchor="start">Legend</text>
+<rect x="54" y="130" width="228" height="55" rx="0" fill="#dae8fc" stroke="#6c8ebf" stroke-width="1.2"/>
+<text x="168.0" y="145.5" font-size="12" text-anchor="middle" fill="#333366">«artifact»</text><text x="168.0" y="161.7" font-size="13" text-anchor="middle" fill="#000" font-weight="bold">web-app bundle</text><text x="168.0" y="178.0" font-size="13" text-anchor="middle" fill="#000">(React SPA, served by caddy)</text>
+<rect x="394" y="130" width="150" height="55" rx="0" fill="#dae8fc" stroke="#6c8ebf" stroke-width="1.2"/>
+<text x="469.0" y="153.6" font-size="12" text-anchor="middle" fill="#333366">«artifact»</text><text x="469.0" y="169.8" font-size="13" text-anchor="middle" fill="#000" font-weight="bold">compose.yaml</text>
+<rect x="556" y="130" width="165" height="55" rx="0" fill="#dae8fc" stroke="#6c8ebf" stroke-width="1.2"/>
+<text x="638.5" y="145.5" font-size="12" text-anchor="middle" fill="#333366">«artifact»</text><text x="638.5" y="161.7" font-size="13" text-anchor="middle" fill="#000" font-weight="bold">container images</text><text x="638.5" y="178.0" font-size="13" text-anchor="middle" fill="#000">(small CPU model)</text>
+<rect x="864" y="130" width="160" height="55" rx="0" fill="#ffe6cc" stroke="#d79b00" stroke-width="1.2"/>
+<text x="944.0" y="153.6" font-size="12" text-anchor="middle" fill="#333366">«artifact»</text><text x="944.0" y="169.8" font-size="13" text-anchor="middle" fill="#000" font-weight="bold">source repository</text>
+<rect x="1036" y="130" width="155" height="55" rx="0" fill="#ffe6cc" stroke="#d79b00" stroke-width="1.2"/>
+<text x="1113.5" y="145.5" font-size="12" text-anchor="middle" fill="#333366">«artifact»</text><text x="1113.5" y="161.7" font-size="13" text-anchor="middle" fill="#000" font-weight="bold">ci.yml</text><text x="1113.5" y="178.0" font-size="13" text-anchor="middle" fill="#000">(tests, image build)</text>
+<rect x="72" y="420" width="194" height="70" rx="0" fill="#dae8fc" stroke="#6c8ebf" stroke-width="1.2"/>
+<text x="169.0" y="443.0" font-size="12" text-anchor="middle" fill="#333366">«artifact»</text><text x="169.0" y="459.2" font-size="13" text-anchor="middle" fill="#000" font-weight="bold">caddy</text><text x="169.0" y="475.5" font-size="13" text-anchor="middle" fill="#000">TLS :443, rate limits</text>
+<rect x="72" y="560" width="194" height="70" rx="0" fill="#dae8fc" stroke="#6c8ebf" stroke-width="1.2"/>
+<text x="169.0" y="583.0" font-size="12" text-anchor="middle" fill="#333366">«artifact»</text><text x="169.0" y="599.2" font-size="13" text-anchor="middle" fill="#000" font-weight="bold">web build</text><text x="169.0" y="615.5" font-size="13" text-anchor="middle" fill="#000">static SPA files</text>
+<rect x="318" y="420" width="200" height="70" rx="0" fill="#dae8fc" stroke="#6c8ebf" stroke-width="1.2"/>
+<text x="418.0" y="443.0" font-size="12" text-anchor="middle" fill="#333366">«artifact»</text><text x="418.0" y="459.2" font-size="13" text-anchor="middle" fill="#000" font-weight="bold">core-api  × 2 instances</text><text x="418.0" y="475.5" font-size="13" text-anchor="middle" fill="#000">FastAPI + Job Reaper</text>
+<rect x="578" y="420" width="210" height="70" rx="0" fill="#dae8fc" stroke="#6c8ebf" stroke-width="1.2"/>
+<text x="683.0" y="443.0" font-size="12" text-anchor="middle" fill="#333366">«artifact»</text><text x="683.0" y="459.2" font-size="13" text-anchor="middle" fill="#000" font-weight="bold">redis:7</text><text x="683.0" y="475.5" font-size="13" text-anchor="middle" fill="#000">Streams, AOF on</text>
+<rect x="578" y="530" width="210" height="70" rx="0" fill="#dae8fc" stroke="#6c8ebf" stroke-width="1.2"/>
+<text x="683.0" y="553.0" font-size="12" text-anchor="middle" fill="#333366">«artifact»</text><text x="683.0" y="569.2" font-size="13" text-anchor="middle" fill="#000" font-weight="bold">postgres:16 + pgvector</text><text x="683.0" y="585.5" font-size="13" text-anchor="middle" fill="#000">records, audit, vectors</text>
+<rect x="578" y="640" width="210" height="70" rx="0" fill="#dae8fc" stroke="#6c8ebf" stroke-width="1.2"/>
+<text x="683.0" y="663.0" font-size="12" text-anchor="middle" fill="#333366">«artifact»</text><text x="683.0" y="679.2" font-size="13" text-anchor="middle" fill="#000" font-weight="bold">minio</text><text x="683.0" y="695.5" font-size="13" text-anchor="middle" fill="#000">object lock on originals</text>
+<rect x="902" y="420" width="272" height="70" rx="0" fill="#dae8fc" stroke="#6c8ebf" stroke-width="1.2"/>
+<text x="1038.0" y="443.0" font-size="12" text-anchor="middle" fill="#333366">«artifact»</text><text x="1038.0" y="459.2" font-size="13" text-anchor="middle" fill="#000" font-weight="bold">analysis-worker  × 2 instances</text><text x="1038.0" y="475.5" font-size="13" text-anchor="middle" fill="#000">GPU, restart: always</text>
+<rect x="902" y="530" width="272" height="70" rx="0" fill="#dae8fc" stroke="#6c8ebf" stroke-width="1.2"/>
+<text x="1038.0" y="553.0" font-size="12" text-anchor="middle" fill="#333366">«artifact»</text><text x="1038.0" y="569.2" font-size="13" text-anchor="middle" fill="#000" font-weight="bold">knowledge-worker</text><text x="1038.0" y="585.5" font-size="13" text-anchor="middle" fill="#000">local LLM, no internet</text>
+<rect x="902" y="640" width="272" height="70" rx="0" fill="#dae8fc" stroke="#6c8ebf" stroke-width="1.2"/>
+<text x="1038.0" y="663.0" font-size="12" text-anchor="middle" fill="#333366">«artifact»</text><text x="1038.0" y="679.2" font-size="13" text-anchor="middle" fill="#000" font-weight="bold">evaluation-runner</text><text x="1038.0" y="695.5" font-size="13" text-anchor="middle" fill="#000">on demand</text>
+<rect x="38" y="905" width="294" height="58" rx="0" fill="#e8eef7" stroke="#6c8ebf" stroke-width="1.2"/>
+<text x="185.0" y="922.0" font-size="12" text-anchor="middle" fill="#333366">«artifact»</text><text x="185.0" y="938.2" font-size="13" text-anchor="middle" fill="#000" font-weight="bold">nightly pg_dump + MinIO mirror</text><text x="185.0" y="954.5" font-size="13" text-anchor="middle" fill="#000">daily audit-chain head</text>
+<rect x="438" y="905" width="200" height="58" rx="0" fill="#e1d5e7" stroke="#9673a6" stroke-width="1.2" stroke-dasharray="6 4"/>
+<text x="538.0" y="922.0" font-size="12" text-anchor="middle" fill="#333366">«artifact»</text><text x="538.0" y="938.2" font-size="13" text-anchor="middle" fill="#000" font-weight="bold">exhibit-app</text><text x="538.0" y="954.5" font-size="13" text-anchor="middle" fill="#000">(offline, no network)</text>
+<rect x="652" y="905" width="200" height="58" rx="0" fill="#e1d5e7" stroke="#9673a6" stroke-width="1.2" stroke-dasharray="6 4"/>
+<text x="752.0" y="930.1" font-size="12" text-anchor="middle" fill="#333366">«artifact»</text><text x="752.0" y="946.4" font-size="13" text-anchor="middle" fill="#000" font-weight="bold">signed exhibit package</text>
+<text x="961.0" y="925.4" font-size="12" text-anchor="start" fill="#333333">physical display device;</text><text x="961.0" y="940.4" font-size="12" text-anchor="start" fill="#333333">hardware still to be selected</text>
+<text x="790.0" y="133.4" font-size="12" text-anchor="middle" fill="#222222">git push</text>
+<rect x="240" y="1000" width="150" height="44" rx="0" fill="#dae8fc" stroke="#6c8ebf" stroke-width="1.2"/>
+<text x="315.0" y="1018.4" font-size="11" text-anchor="middle" fill="#333366">«artifact»</text><text x="315.0" y="1033.4" font-size="12" text-anchor="middle" fill="#000" font-weight="bold">Artifact (M3)</text>
+<rect x="405" y="1000" width="150" height="44" rx="0" fill="#e1d5e7" stroke="#9673a6" stroke-width="1.2" stroke-dasharray="6 4"/>
+<text x="480.0" y="1018.4" font-size="11" text-anchor="middle" fill="#333366">«artifact»</text><text x="480.0" y="1033.4" font-size="12" text-anchor="middle" fill="#000" font-weight="bold">Future</text>
+<rect x="570" y="1000" width="150" height="44" rx="0" fill="#e8eef7" stroke="#6c8ebf" stroke-width="1.2"/>
+<text x="645.0" y="1018.4" font-size="11" text-anchor="middle" fill="#333366">«artifact»</text><text x="645.0" y="1033.4" font-size="12" text-anchor="middle" fill="#000" font-weight="bold">Data / backup</text>
+<text x="801.0" y="1028.4" font-size="12" text-anchor="start" fill="#000000">communication path</text>
+<text x="1006.0" y="1021.4" font-size="12" text-anchor="start" fill="#000000">offline one-way transfer;</text><text x="1006.0" y="1036.4" font-size="12" text-anchor="start" fill="#000000">dashed node = future</text>
+<path d="M266,455 L318,455" fill="none" stroke="#333333" stroke-width="1.2"/>
+<rect x="254.1" y="433.9" width="75.9" height="18.2" fill="#ffffff" fill-opacity="0.92"/>
+<text x="292.0" y="446.9" font-size="13" text-anchor="middle" fill="#222222">HTTP :8000</text>
+<path d="M169,490 L169,560" fill="none" stroke="#333333" stroke-width="1.2"/>
+<rect x="179.5" y="515.9" width="63.1" height="18.2" fill="#ffffff" fill-opacity="0.92"/>
+<text x="211.0" y="528.9" font-size="13" text-anchor="middle" fill="#222222">static files</text>
+<path d="M518,455 L578,455" fill="none" stroke="#333333" stroke-width="1.2"/>
+<rect x="509.3" y="433.9" width="77.3" height="18.2" fill="#ffffff" fill-opacity="0.92"/>
+<text x="548.0" y="446.9" font-size="13" text-anchor="middle" fill="#222222">RESP :6379</text>
+<path d="M450,490 L450,565 L578,565" fill="none" stroke="#333333" stroke-width="1.2"/>
+<rect x="499.5" y="543.9" width="67.7" height="18.2" fill="#ffffff" fill-opacity="0.92"/>
+<text x="533.3" y="556.9" font-size="13" text-anchor="middle" fill="#222222">SQL :5432</text>
+<path d="M370,490 L370,675 L578,675" fill="none" stroke="#333333" stroke-width="1.2"/>
+<rect x="470.4" y="653.9" width="58.1" height="18.2" fill="#ffffff" fill-opacity="0.92"/>
+<text x="499.4" y="666.9" font-size="13" text-anchor="middle" fill="#222222">S3 :9000</text>
+<path d="M788,445 L902,445" fill="none" stroke="#333333" stroke-width="1.2"/>
+<rect x="806.4" y="423.9" width="77.3" height="18.2" fill="#ffffff" fill-opacity="0.92"/>
+<text x="845.0" y="436.9" font-size="13" text-anchor="middle" fill="#222222">RESP (jobs)</text>
+<path d="M788,470 L845,470 L845,550 L902,550" fill="none" stroke="#333333" stroke-width="1.2"/>
+<path d="M902,585 L788,585" fill="none" stroke="#333333" stroke-width="1.2"/>
+<rect x="800.3" y="588.9" width="89.4" height="18.2" fill="#ffffff" fill-opacity="0.92"/>
+<text x="845.0" y="601.9" font-size="13" text-anchor="middle" fill="#222222">SQL read-only</text>
+<path d="M902,675 L788,675" fill="none" stroke="#333333" stroke-width="1.2"/>
+<rect x="822.1" y="653.9" width="45.8" height="18.2" fill="#ffffff" fill-opacity="0.92"/>
+<text x="845.0" y="666.9" font-size="13" text-anchor="middle" fill="#222222">S3 API</text>
+<path d="M169,205 L169,282" fill="none" stroke="#333333" stroke-width="1.2"/>
+<rect x="178.2" y="234.4" width="77.5" height="18.2" fill="#ffffff" fill-opacity="0.92"/>
+<text x="217.0" y="247.4" font-size="13" text-anchor="middle" fill="#222222">HTTPS :443</text>
+<path d="M750,112 L830,112" fill="none" stroke="#333333" stroke-width="1.2"/>
+<rect x="765.7" y="90.9" width="48.6" height="18.2" fill="#ffffff" fill-opacity="0.92"/>
+<text x="790.0" y="103.9" font-size="13" text-anchor="middle" fill="#222222">HTTPS</text>
+<path d="M1020,205 L1020,282" fill="none" stroke="#333333" stroke-width="1.2"/>
+<rect x="937.5" y="234.4" width="165.0" height="18.2" fill="#ffffff" fill-opacity="0.92"/>
+<text x="1020.0" y="247.4" font-size="13" text-anchor="middle" fill="#222222">HTTPS (clone, pull images)</text>
+<path d="M185,775 L185,845" fill="none" stroke="#333333" stroke-width="1.2"/>
+<rect x="193.5" y="800.9" width="139.0" height="18.2" fill="#ffffff" fill-opacity="0.92"/>
+<text x="263.0" y="813.9" font-size="13" text-anchor="middle" fill="#222222">USB 3 (nightly backup)</text>
+<path d="M645,775 L645,845" fill="none" stroke="#333333" stroke-width="1.2" stroke-dasharray="6 4"/>
+<rect x="659.7" y="800.9" width="230.6" height="18.2" fill="#ffffff" fill-opacity="0.92"/>
+<text x="775.0" y="813.9" font-size="13" text-anchor="middle" fill="#222222">USB, one-way signed package (offline)</text>
+<path d="M870,920 L940,920" fill="none" stroke="#333333" stroke-width="1.2"/>
+<rect x="885.4" y="898.9" width="39.2" height="18.2" fill="#ffffff" fill-opacity="0.92"/>
+<text x="905.0" y="911.9" font-size="13" text-anchor="middle" fill="#222222">HDMI</text>
+<path d="M745,1022 L790,1022" fill="none" stroke="#333333" stroke-width="1.2"/>
+<path d="M950,1022 L995,1022" fill="none" stroke="#333333" stroke-width="1.2" stroke-dasharray="6 4"/>
+
+</svg>

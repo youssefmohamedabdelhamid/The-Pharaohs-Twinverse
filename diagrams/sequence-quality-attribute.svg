@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1220" height="784" viewBox="0 0 1220 784" font-family="Liberation Sans, Helvetica, Arial, sans-serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333333"/></marker><marker id="arrw" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333333"/></marker></defs>
+<rect width="1220" height="784" fill="#ffffff"/>
+
+<rect x="30" y="418" width="1150" height="300" fill="none" stroke="#666666" stroke-width="1.2"/>
+<text x="38" y="434" font-size="13" font-weight="bold" fill="#333333" text-anchor="start">alt  [attempt ≤ 3 and worker available]</text>
+<rect x="20" y="14" width="150" height="52" rx="6" fill="#dae8fc" stroke="#6c8ebf" stroke-width="1.2"/>
+<text x="95.0" y="36.1" font-size="13" text-anchor="middle" fill="#000000" font-weight="bold">Web App</text><text x="95.0" y="52.4" font-size="13" text-anchor="middle" fill="#000000">[container]</text>
+<rect x="190" y="14" width="150" height="52" rx="6" fill="#dae8fc" stroke="#6c8ebf" stroke-width="1.2"/>
+<text x="265.0" y="36.1" font-size="13" text-anchor="middle" fill="#000000" font-weight="bold">Core API</text><text x="265.0" y="52.4" font-size="13" text-anchor="middle" fill="#000000">[container]</text>
+<rect x="360" y="14" width="150" height="52" rx="6" fill="#dae8fc" stroke="#6c8ebf" stroke-width="1.2"/>
+<text x="435.0" y="36.1" font-size="13" text-anchor="middle" fill="#000000" font-weight="bold">Job Reaper</text><text x="435.0" y="52.4" font-size="13" text-anchor="middle" fill="#000000">[Core API task]</text>
+<rect x="530" y="14" width="150" height="52" rx="6" fill="#e8eef7" stroke="#6c8ebf" stroke-width="1.2"/>
+<text x="605.0" y="36.1" font-size="13" text-anchor="middle" fill="#000000" font-weight="bold">Job Broker</text><text x="605.0" y="52.4" font-size="13" text-anchor="middle" fill="#000000">[Redis]</text>
+<rect x="700" y="14" width="150" height="52" rx="6" fill="#dae8fc" stroke="#6c8ebf" stroke-width="1.2"/>
+<text x="775.0" y="36.1" font-size="13" text-anchor="middle" fill="#000000" font-weight="bold">Analysis Worker 1</text><text x="775.0" y="52.4" font-size="13" text-anchor="middle" fill="#000000">[container]</text>
+<rect x="870" y="14" width="150" height="52" rx="6" fill="#dae8fc" stroke="#6c8ebf" stroke-width="1.2"/>
+<text x="945.0" y="36.1" font-size="13" text-anchor="middle" fill="#000000" font-weight="bold">Analysis Worker 2</text><text x="945.0" y="52.4" font-size="13" text-anchor="middle" fill="#000000">[or restarted worker 1]</text>
+<rect x="1040" y="14" width="150" height="52" rx="6" fill="#e8eef7" stroke="#6c8ebf" stroke-width="1.2"/>
+<text x="1115.0" y="36.1" font-size="13" text-anchor="middle" fill="#000000" font-weight="bold">Database</text><text x="1115.0" y="52.4" font-size="13" text-anchor="middle" fill="#000000">[PostgreSQL]</text>
+<text x="795.0" y="278.4" font-size="13" text-anchor="start" fill="#b85450">7. worker 1 crashes mid-job</text>
+<rect x="700" y="294" width="230" height="30" rx="6" fill="#fff2cc" stroke="#d6b656" stroke-width="1.2"/>
+<text x="815.0" y="312.9" font-size="12" text-anchor="middle" fill="#000000">Docker restart policy restarts it [T4]</text>
+<text x="997.0" y="542.4" font-size="13" text-anchor="start" fill="#000000">14. resume from checkpoint  [T6]</text>
+<text x="42.0" y="664.4" font-size="13" text-anchor="start" fill="#333333" font-weight="bold">[third attempt also failed]</text>
+<rect x="30" y="730" width="1150" height="30" rx="6" fill="#fff2cc" stroke="#d6b656" stroke-width="1.2"/>
+<text x="605.0" y="749.2" font-size="13" text-anchor="middle" fill="#000000">QAS-2 response measure (Milestone 1): ≥ 95% of 20 interruption tests recover within 60 s; no uploads or annotations lost; ≥ 99% of browse/review requests succeed.</text>
+<text x="36.0" y="777.4" font-size="12" text-anchor="start" fill="#333333">Notation: solid arrow = call or message; dashed arrow = response or pushed event; red cross = crash; [Tn] = tactic, explained in the table under the figure.</text>
+<path d="M95,70 L95,726" fill="none" stroke="#888888" stroke-width="1.2" stroke-dasharray="6 4"/>
+<path d="M265,70 L265,726" fill="none" stroke="#888888" stroke-width="1.2" stroke-dasharray="6 4"/>
+<path d="M435,70 L435,726" fill="none" stroke="#888888" stroke-width="1.2" stroke-dasharray="6 4"/>
+<path d="M605,70 L605,726" fill="none" stroke="#888888" stroke-width="1.2" stroke-dasharray="6 4"/>
+<path d="M775,70 L775,726" fill="none" stroke="#888888" stroke-width="1.2" stroke-dasharray="6 4"/>
+<path d="M945,70 L945,726" fill="none" stroke="#888888" stroke-width="1.2" stroke-dasharray="6 4"/>
+<path d="M1115,70 L1115,726" fill="none" stroke="#888888" stroke-width="1.2" stroke-dasharray="6 4"/>
+<path d="M95,102 L265,102" fill="none" stroke="#333333" stroke-width="1.2" marker-end="url(#arr)"/>
+<rect x="16.3" y="83.9" width="327.4" height="18.2" fill="#ffffff" fill-opacity="0.92"/>
+<text x="180.0" y="96.9" font-size="13" text-anchor="middle" fill="#222222">1. POST /captures/{id}/analysis-jobs (Idempotency-Key)</text>
+<path d="M265,130 L1115,130" fill="none" stroke="#333333" stroke-width="1.2" marker-end="url(#arr)"/>
+<rect x="586.2" y="111.9" width="207.6" height="18.2" fill="#ffffff" fill-opacity="0.92"/>
+<text x="690.0" y="124.9" font-size="13" text-anchor="middle" fill="#222222">2. insert job QUEUED (unique key)</text>
+<path d="M265,158 L605,158" fill="none" stroke="#333333" stroke-width="1.2" marker-end="url(#arr)"/>
+<rect x="350.7" y="139.9" width="168.6" height="18.2" fill="#ffffff" fill-opacity="0.92"/>
+<text x="435.0" y="152.9" font-size="13" text-anchor="middle" fill="#222222">3. XADD analysis.requested</text>
+<path d="M265,186 L95,186" fill="none" stroke="#333333" stroke-width="1.2" stroke-dasharray="6 4" marker-end="url(#arr)"/>
+<rect x="46.5" y="167.9" width="267.0" height="18.2" fill="#ffffff" fill-opacity="0.92"/>
+<text x="180.0" y="180.9" font-size="13" text-anchor="middle" fill="#222222">4. 202 {job_id}; SSE progress stream opened</text>
+<path d="M775,214 L605,214" fill="none" stroke="#333333" stroke-width="1.2" marker-end="url(#arr)"/>
+<rect x="571.0" y="195.9" width="237.9" height="18.2" fill="#ffffff" fill-opacity="0.92"/>
+<text x="690.0" y="208.9" font-size="13" text-anchor="middle" fill="#222222">5. XREADGROUP: claim job (attempt 1)</text>
+<path d="M775,242 L265,242" fill="none" stroke="#333333" stroke-width="1.2" marker-end="url(#arr)"/>
+<rect x="439.3" y="223.9" width="161.4" height="18.2" fill="#ffffff" fill-opacity="0.92"/>
+<text x="520.0" y="236.9" font-size="13" text-anchor="middle" fill="#222222">6. heartbeat every 5 s  [T1]</text>
+<path d="M766,263 L784,281" fill="none" stroke="#b85450" stroke-width="3"/>
+<path d="M766,281 L784,263" fill="none" stroke="#b85450" stroke-width="3"/>
+<path d="M435,346 L1115,346" fill="none" stroke="#333333" stroke-width="1.2" marker-end="url(#arr)"/>
+<rect x="584.8" y="327.9" width="380.3" height="18.2" fill="#ffffff" fill-opacity="0.92"/>
+<text x="775.0" y="340.9" font-size="13" text-anchor="middle" fill="#222222">8. every 10 s: RUNNING jobs with heartbeat older than 20 s  [T2]</text>
+<path d="M435,374 L605,374" fill="none" stroke="#333333" stroke-width="1.2" marker-end="url(#arr)"/>
+<rect x="375.8" y="355.9" width="288.5" height="18.2" fill="#ffffff" fill-opacity="0.92"/>
+<text x="520.0" y="368.9" font-size="13" text-anchor="middle" fill="#222222">9. XCLAIM to retry group, attempt 2 (max 3)  [T3]</text>
+<path d="M265,402 L95,402" fill="none" stroke="#333333" stroke-width="1.2" stroke-dasharray="6 4" marker-end="url(#arr)"/>
+<rect x="12.0" y="383.9" width="336.0" height="18.2" fill="#ffffff" fill-opacity="0.92"/>
+<text x="180.0" y="396.9" font-size="13" text-anchor="middle" fill="#222222">10. event RETRYING; review screens stay available  [T5]</text>
+<path d="M945,448 L605,448" fill="none" stroke="#333333" stroke-width="1.2" marker-end="url(#arr)"/>
+<rect x="687.9" y="429.9" width="174.1" height="18.2" fill="#ffffff" fill-opacity="0.92"/>
+<text x="775.0" y="442.9" font-size="13" text-anchor="middle" fill="#222222">11. claim job (attempt 2)  [T8]</text>
+<path d="M945,476 L265,476" fill="none" stroke="#333333" stroke-width="1.2" marker-end="url(#arr)"/>
+<rect x="495.1" y="457.9" width="219.7" height="18.2" fill="#ffffff" fill-opacity="0.92"/>
+<text x="605.0" y="470.9" font-size="13" text-anchor="middle" fill="#222222">12. GET /internal/jobs/{id}/checkpoint</text>
+<path d="M265,504 L945,504" fill="none" stroke="#333333" stroke-width="1.2" stroke-dasharray="6 4" marker-end="url(#arr)"/>
+<rect x="531.5" y="485.9" width="147.0" height="18.2" fill="#ffffff" fill-opacity="0.92"/>
+<text x="605.0" y="498.9" font-size="13" text-anchor="middle" fill="#222222">13. last completed stage</text>
+<path d="M945,532 L985,532 L985,546 L949,546" fill="none" stroke="#333333" stroke-width="1.2" marker-end="url(#arr)"/>
+<path d="M945,572 L265,572" fill="none" stroke="#333333" stroke-width="1.2" marker-end="url(#arr)"/>
+<rect x="472.8" y="553.9" width="264.5" height="18.2" fill="#ffffff" fill-opacity="0.92"/>
+<text x="605.0" y="566.9" font-size="13" text-anchor="middle" fill="#222222">15. POST /internal/jobs/{id}/result (attempt 2)</text>
+<path d="M265,600 L1115,600" fill="none" stroke="#333333" stroke-width="1.2" marker-end="url(#arr)"/>
+<rect x="567.1" y="581.9" width="245.9" height="18.2" fill="#ffffff" fill-opacity="0.92"/>
+<text x="690.0" y="594.9" font-size="13" text-anchor="middle" fill="#222222">16. idempotent write: first result wins  [T7]</text>
+<path d="M265,628 L95,628" fill="none" stroke="#333333" stroke-width="1.2" stroke-dasharray="6 4" marker-end="url(#arr)"/>
+<rect x="108.0" y="609.9" width="144.1" height="18.2" fill="#ffffff" fill-opacity="0.92"/>
+<text x="180.0" y="622.9" font-size="13" text-anchor="middle" fill="#222222">17. event job.completed</text>
+<path d="M265,674 L1115,674" fill="none" stroke="#333333" stroke-width="1.2" marker-end="url(#arr)"/>
+<rect x="627.0" y="655.9" width="126.0" height="18.2" fill="#ffffff" fill-opacity="0.92"/>
+<text x="690.0" y="668.9" font-size="13" text-anchor="middle" fill="#222222">18. mark job FAILED</text>
+<path d="M265,702 L95,702" fill="none" stroke="#333333" stroke-width="1.2" stroke-dasharray="6 4" marker-end="url(#arr)"/>
+<rect x="67.1" y="683.9" width="225.7" height="18.2" fill="#ffffff" fill-opacity="0.92"/>
+<text x="180.0" y="696.9" font-size="13" text-anchor="middle" fill="#222222">19. event job.failed; user can resubmit</text>
+<path d="M30,646 L1180,646" fill="none" stroke="#666666" stroke-width="1.2" stroke-dasharray="6 4"/>
+
+</svg>
